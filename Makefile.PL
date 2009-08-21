@@ -8,7 +8,9 @@ WriteMakefile
                            'Test::More' => '0'
                          },
           'INSTALLDIRS' => 'site',
-          'EXE_FILES' => [],
+          'EXE_FILES' => [
+                           'script/pdf_kit_eg'
+                         ],
           'PL_FILES' => {}
         )
 ;
