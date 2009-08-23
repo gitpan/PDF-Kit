@@ -9,7 +9,7 @@ WriteMakefile
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [
-                           'script/pdf_kit_eg'
+                           'script/pdf_kit_eg.pl'
                          ],
           'PL_FILES' => {}
         )
